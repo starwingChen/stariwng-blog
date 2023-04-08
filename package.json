@@ -1,0 +1,28 @@
+{
+  "name": "stariwng-blog",
+  "version": "0.1.0",
+  "private": true,
+  "scripts": {
+    "dev": "next dev",
+    "build": "next build",
+    "start": "next start",
+    "lint": "next lint"
+  },
+  "dependencies": {
+    "@types/node": "18.15.11",
+    "@types/react": "18.0.33",
+    "@types/react-dom": "18.0.11",
+    "eslint-config-next": "13.3.0",
+    "mockjs": "^1.1.0",
+    "next": "13.3.0",
+    "react": "18.2.0",
+    "react-dom": "18.2.0",
+    "typescript": "5.0.4"
+  },
+  "devDependencies": {
+    "@types/mockjs": "^1.0.7",
+    "eslint": "^8.38.0",
+    "stylelint": "^15.4.0",
+    "stylelint-config-standard-scss": "^7.0.1"
+  }
+}
