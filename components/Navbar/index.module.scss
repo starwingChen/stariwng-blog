@@ -1,0 +1,42 @@
+.nav {
+  display: flex;
+  justify-content: space-around;
+  background-color: white;
+  height: 60px;
+  border-bottom: .01rem solid #f1f1f1;
+  align-items: center;
+
+}
+.logo {
+  font-size: .3rem;
+  margin: auto 1%;
+  font-weight: bold;
+}
+.link__items{
+
+  * {
+    font-size: .18rem;
+    padding: 0 .2rem;
+    text-decoration:none;
+    color: #515767;
+  }
+
+  .active{
+    color: #1e80ff;
+  }
+}
+
+.operation{
+  margin: auto 1%;
+  .login{
+    border-radius: .03rem;
+    font-size: .14rem;
+  }
+  .editor{
+    margin-right: .2rem;
+    border-radius: .03rem;
+    font-size: .14rem;
+
+  }
+}
+
